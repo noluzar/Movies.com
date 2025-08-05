@@ -1,8 +1,7 @@
 
 function BottomNav() {
   return (
-    <div>
-        <nav className="flex items-center justify-between bg-gray-300">
+        <nav className="flex items-center justify-between bg-gray-300 w-full">
             <h3 className="p-8">Enter-Stream</h3>
             <ul className="flex space-x-4">
                 <li><a href="/movies">MOVIES</a></li>
@@ -10,7 +9,6 @@ function BottomNav() {
             </ul>
             <button className="p-8">SUBSCRIBE</button>
         </nav>
-    </div>
   );
 }
 

@@ -5,7 +5,7 @@ const Details = () => {
     const { id } = useParams();
     const [movie, setMovie] = useState(null);
     const [error, setError] = useState(null);
-    const navigate = useNavigate(); // For navigation
+    const navigate = useNavigate();
 
     useEffect(() => {
         const retrieveData = async () => {
@@ -32,7 +32,7 @@ const Details = () => {
             if (!response.ok) {
                 throw new Error('Failed to delete the movie');
             }
-            navigate('/'); // Redirect to the home page after deletion
+            navigate('/'); 
         } catch (error) {
             setError(error.message);
         }

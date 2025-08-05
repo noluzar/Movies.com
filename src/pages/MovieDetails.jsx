@@ -1,6 +1,6 @@
 // import React from 'react';
 import { useParams } from 'react-router-dom';
-import moviesData from './movies.json';
+import moviesData from '../movies.json';
 
 function MovieDetails() {
   const { movieId } = useParams();

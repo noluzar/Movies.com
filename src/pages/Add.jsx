@@ -1,5 +1,5 @@
 import { useState} from 'react';
-import poster from "./assets/pictures/avengers.jpeg";
+import poster from "../assets/pictures/avengers.jpeg";
 import { useNavigate } from 'react-router-dom';
 
 function Add({submitMovies}) {
